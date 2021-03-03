@@ -1,0 +1,86 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+
+}
+#txtName, #txtAadhar, #txtAddress, #txtPhone, #txtBank, #txtIfsc, #txtBal, #DropDownList1, #txtDid, #txtDname,#txtPnumber,#txtAdmin,
+#txtrTRN,#txtrDate,#txtcAadhar,#txtSID,#txtrAmt,#txtbalanceAmt,#txtBalAmt,#txtpTRN,#txtSID,#txtpDate,#txtsAadhar,#txtAmt,#txtAmttbPaid,#txtBalance,#txtCID
+{
+    border: medium inset #0000FF;
+    border-radius: 25px;
+     font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-align:center;
+    
+    
+}
+#cmdSave, #cmdDelete, #cmdEdit, #cmdBack, #cmdCancel
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: medium;
+    text-align: center;
+    color: White;
+    background-color: #0000FF;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 0px;
+}
+#cmdSave:hover
+{
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+#cmdSave:active
+{
+    background-color: #0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdEdit:hover
+{
+    background-color:  #00FF00;
+    color: #FFFFFF;
+}
+#cmdEdit:active
+{
+    background-color: #0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdDelete:hover
+{
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+#cmdDelete:active
+{
+    background-color: #0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdBack:hover
+{
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+#cmdBack:active
+{
+    background-color:#0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdCancel:hover
+{
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+#cmdCancel:active
+{
+    background-color: #0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}

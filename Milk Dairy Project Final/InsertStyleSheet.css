@@ -1,0 +1,83 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+}
+#txtStockID, #txtSnf, #txtFat, #txtRate, #txtSNF, #txtprsntStock, #txtSDate, #txtTRN, #txtsQty,#txtSID,#txtsAadhar,#txtCID, #txtQty, #txtAmount, #txtcAadhar, #txtsDate, #txtStockRate, #txtsTotal, #DropDownList1, #txtCost
+{
+    border: medium inset #CC3300;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-align:center;
+    margin-left: 2px;
+}
+#cmdInsert, #cmdDelete, #cmdUpdate, #cmdBack, #cmdCancel
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: medium;
+    text-align: center;
+    color: White;
+    background-color: #CC3300;
+    border-radius:15px;
+    box-shadow:0 9px #999;
+    
+}
+#cmdInsert:hover
+{
+    background-color: #663300;
+    color: #FFFFFF;
+}
+#cmdInsert:active
+{
+    background-color: #FF9900;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdUpdate:hover
+{
+    background-color: #663300;
+    color: #FFFFFF;
+}
+#cmdUpdate:active
+{
+    background-color: #FF9900;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdDelete:hover
+{
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+#cmdDelete:active
+{
+    background-color: #FF9900;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdBack:hover
+{
+    background-color: #663300;
+    color: #FFFFFF;
+}
+#cmdBack:active
+{
+    background-color: #FF9900;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdCancel:hover
+{
+    background-color: #663300;
+    color: #FFFFFF;
+}
+#cmdCancel:active
+{
+    background-color: #FF9900;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}

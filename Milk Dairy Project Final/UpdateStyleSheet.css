@@ -1,0 +1,63 @@
+﻿body {    height: 999px;
+    width: 1340px;
+    margin-left: 4px;
+    margin-right: 1px;
+    margin-top: 2px;
+}
+#txtDname,#txtAddress, #txtPnumber, #txtAdmin, #txtSearch,#cmdFind,#txtSnf,#txtFat,#txtCost,#txtCattle,#txtAmt,#txtPaymentMode,
+#txtpDate,#txtBalance,#txtBalAmt,#txtrDate,#txtrAmt,#txtsDate,#txtsQty,#txtStockID,#txtStockRate,#txtsTotal,#txtName,#txtPhone,
+#txtBal,#txtIfsc,#txtBank,#txtSDate,#txtQty,#txtAmount,#txtRate,#txtSNF,#txtSearch,#txtRate,#txtSID,#txtprsntStock,#txtsAadhar,#txtAmttbPaid,#txtcAadhar,#txtCID
+{
+    border: medium inset ;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+#cmdUpdate, #cmdCancel, #cmdBack
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: medium;
+    text-align: center;
+    color: White;
+    background-color: #00FF00;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 0px;
+}
+#cmdUpdate:hover
+{
+    background-color: #00CC00;
+    color: #FFFFFF;
+}
+#cmdUpdate:active
+{
+    background-color: #CCFF33;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdCancel:hover
+{
+    background-color:#00CC00;
+    color: #FFFFFF;
+}
+#cmdCancel:active
+{
+    background-color:#CCFF33;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdBack:hover
+{
+    background-color: #00CC00;
+    color: #FFFFFF;
+}
+#cmdBack:active
+{
+    background-color: #CCFF33;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}

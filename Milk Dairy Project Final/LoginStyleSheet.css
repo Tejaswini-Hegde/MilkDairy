@@ -1,0 +1,73 @@
+﻿body 
+{
+    
+     margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#txtU,#txtP,#txtVerification,#txtEmail,#txtMobile,#txtDId,#txtUtype,#txtConfirmPassword
+{
+    
+    border: medium inset #0000CC;
+    border-radius: 25px;
+    margin-left:inherit;
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    text-align:center;
+    margin-left: 0px;
+   
+}
+
+#cmdLogin, #cmdCancel,#cmdRegister
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: medium;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #000000;
+    background-color: #0000FF;
+    border-radius: 8px;
+    box-shadow: 0 9px #999;
+    margin-left: 0px;
+}
+
+
+#cmdLogin:hover
+{
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+#cmdCancel:hover
+{
+    background-color:#00FF00;
+    color: #FFFFFF;
+}
+#cmdRegister:hover
+{
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+
+#cmdLogin:active
+{
+    background-color:#0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdCancel:active
+{
+    background-color: #0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#cmdRegister:active
+{
+    background-color:#0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}

@@ -1,0 +1,51 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    height: 650px;
+}
+#txtStockID,#Button1,#Button2,#txtAadhar,#txtDid,#txtFat,#txtpTRN,#txtTRN,#txtAadhar,#txtSID,#txtsAadhar,#txtcAadhar,#txtCID,#txtSID
+{
+ border: medium inset #0000FF;
+    border-radius: 25px;
+     font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-align:center;
+    margin-left: 132px;
+}
+#Button1,#Button2
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: medium;
+    text-align: center;
+    color: White;
+    background-color: #0000FF;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 0px;
+}
+#Button2:hover
+{
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+#Button2:active
+{
+    background-color: #0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+#Button1:hover
+{
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+#Button1:active
+{
+    background-color: #0000FF;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
